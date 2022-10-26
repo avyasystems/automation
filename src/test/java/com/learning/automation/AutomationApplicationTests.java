@@ -8,7 +8,7 @@ class AutomationApplicationTests {
 
 	@Test
 	void contextLoads() {
-		System.out.println("Into Context loads");
+
 	}
 
 }

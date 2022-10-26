@@ -11,8 +11,6 @@ public class DeclareVariables {
     {
         int localvariable = 20;
         globalVariable = 40;
-        System.out.println(globalVariabl)
-        System.out.println(tets);
     }
 
     //Declaring a local variable

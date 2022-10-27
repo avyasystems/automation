@@ -2,10 +2,11 @@ package com.learning.automation.learning.variables;
 
 public class DeclareVariables {
 
-    // Declaring a static variable
+    // Declaring a static variable M
     public static int staticVariable = 10;
     // Declaring a global variable
     int globalVariable;
+    System.out.println("Here is the change");
 
     public void method1()
     {

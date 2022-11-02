@@ -8,7 +8,7 @@ import static com.learning.automation.learning.variables.DeclareVariables.static
 
 public class Variables {
 
-    @Test
+    //@Test
     public void run()
     {
         System.out.println(staticVariable);

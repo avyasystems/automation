@@ -1,12 +1,9 @@
 package com.learning.automation.learning;
 
 
-import com.learning.automation.BasePage;
+import com.learning.automation.petstore.common.BasePage;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.annotation.Bean;
-import org.testng.annotations.Test;
 
-import java.io.File;
 import java.io.FileInputStream;
 import java.util.Properties;
 
@@ -21,7 +18,7 @@ public class SpringExecutor extends BasePage {
         System.out.println("UserName Value "+dbUserName);
     }
 
-    @Test
+    //@Test
     public void readProperties()
     {
         try
@@ -34,5 +31,11 @@ public class SpringExecutor extends BasePage {
         }
         catch (Exception e){}
 
+    }
+
+    public void lofin()
+    {
+        //webdriber.sendkeys("username",roperties.getProperty("app1.url"));
+        //webdriver.sendkeys("password","password123");
     }
 }

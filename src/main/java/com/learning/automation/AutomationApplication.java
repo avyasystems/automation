@@ -1,5 +1,6 @@
 package com.learning.automation;
 
+import org.openqa.selenium.WebDriver;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -10,6 +11,8 @@ public class AutomationApplication {
 		System.out.println("This is the main program");
 		System.out.println("You can see this line because it is updating in Git");
 		SpringApplication.run(AutomationApplication.class, args);
+
+		//Thread.sleep(1000);
 	}
 
 }
